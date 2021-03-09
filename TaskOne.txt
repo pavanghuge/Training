@@ -44,6 +44,7 @@ x = input()
 print(x)
 
 #python version 2 
+eval(raw_input("Enter input:))
 print "x"
 
 
@@ -82,4 +83,4 @@ first_number
 Yes it will change the value of a since python is dynamic language.
 A dynamic programming language is a programming language in which operations 
 otherwise done at compile-time can be done at run-time. 
-
+So the the datatype of variable is decided at runtime.
