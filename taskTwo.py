@@ -186,6 +186,7 @@ print("Letters", letters, "Digits", digits)
 """
   
 """
+# 9. Lucky number
 luckyNumber = 4
 
 while True:
@@ -205,5 +206,43 @@ while True:
         continue
 
 """
+"""
+# 10. Guess lucky number
+luckyNumber = 4
+count = 0
+limit = 5
 
+while True:
+    userGuess = int(input("Enter your guess : "))
+    count += 1
+    if userGuess == luckyNumber:
+        print(f'Good guess!')
+    else:
+        print(f'Try again!')
+    if count == limit:
+        print(f'Game over!')
+        break
 
+"""
+"""
+11. In the previous question, insert break after the “Good guess!” print statement. break will terminate
+the while loop so that users do not have to continue guessing after they found the number. If the user
+does not guess the number at all, print “Sorry but that was not very successful”.
+"""
+"""
+luckyNumber = 6
+count = 0
+limit = 5
+
+while True:
+    userGuess = int(input("Enter your guess : "))
+    count += 1
+    if userGuess == luckyNumber:
+        print(f'Good guess!')
+        break
+    else:
+        print(f'Try again!')
+    if count == 5:
+        print(f'Game over!')
+        break
+    """
